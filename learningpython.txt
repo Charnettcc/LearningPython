@@ -1,0 +1,44 @@
+    1  pwd
+    2  cd Desktop
+    3  cd LearningPython
+    4  git status
+    5  git commit -m "Created Folder"
+    6  git status
+    7  git remote add origin https://github.com/Charnettcc/LearningPython.git
+    8  git push origin master
+    9  ls
+   10  git add 01-intro.ipynb
+   11  git commit -m 'The first file of the intro'
+   12  git push origin master
+   13  ls
+   14  git add 02-looping.ipynb
+   15  git commit -m 'We re getting confused with loops and strings"
+'
+   16  git push origin master
+   17  ls
+   18  git add 03-lists.ipynb 04-choices.ipynb
+   19  git status
+   20  git commit -m 'Learning more python functions - lists and choices'
+   21  git status
+   22  git add 04-choices.ipynb
+   23  git commit -m 'Updates on choices'
+   24  git push origin master 
+   25  git status
+   26  git log
+   27  git log oneline
+   28  git log -oneline
+   29  git log --oneline
+   30  ls
+   31  ls
+   32  git add 05-functions.ipynb 
+   33  git status
+   34  git commit -m 'Learnt more functions'
+   35  git push origin master 
+   36  git log --oneline
+   37  git status
+   38  git add 06-excelpractice.ipynb cleaned_data.csv 
+   39  git commit -m 'Learnt how to incorporate Excel Sheets'
+   40  git push origin master
+   41  git status
+   42  git log --oneline --graph
+   43  history > learningpython.txt
